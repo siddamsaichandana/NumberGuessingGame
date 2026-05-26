@@ -1,9 +1,10 @@
 🎮 Number Guessing Game
 
 📌 Project Description
-This is a fun and interactive Number Guessing Game developed using HTML, CSS, and JavaScript.
-The game generates a random number between 1 and 100, and the player has to guess the correct number within limited attempts. The application provides hints like Too High or Too Low to help the player.
-It also includes attractive full-screen Win and Lose popups for a better gaming experience.
+
+	This is a fun and interactive Number Guessing Game developed using HTML, CSS, and JavaScript.
+	The game generates a random number between 1 and 100, and the player has to guess the correct number within limited attempts. The application provides hints like Too High or Too Low to help the player.
+	It also includes attractive full-screen Win and Lose popups for a better gaming experience.
 
 🚀 Features
 
