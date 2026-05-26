@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Number Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🎮 GAME BOX -->
+    <div class="container">
+
+        <h1>🎮 Number Guessing Game 🎮</h1>
+
+        <p>🔢 Guess a number between 1 and 100</p>
+
+        <input 
+            type="number"
+            id="guessInput"
+            placeholder="Enter your guess"
+        >
+
+        <div class="buttons">
+            <button onclick="checkGuess()">
+                🚀 Submit
+            </button>
+
+            <button onclick="resetGame()">
+                🔄 Restart
+            </button>
+        </div>
+
+        <p id="message">
+            💡 Start Guessing...
+        </p>
+
+        <p>
+            ⏳ Attempts:
+            <span id="attempts">0</span>/10
+        </p>
+
+    </div>
+
+    <!-- 🏆 WIN SCREEN -->
+    <div id="winScreen" class="fullscreen">
+
+        <div class="popup win">
+
+            <h1>🎉 YOU WON! 🏆</h1>
+
+            <button onclick="resetGame()">
+                🔄 Play Again
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- 💀 LOSE SCREEN -->
+    <div id="loseScreen" class="fullscreen">
+
+        <div class="popup lose">
+
+            <h1>💀 YOU LOSE!</h1>
+
+            <p>
+                Correct Number:
+                <span id="correctNumber"></span>
+            </p>
+
+            <button onclick="resetGame()">
+                🔄 Try Again
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
